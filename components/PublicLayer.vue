@@ -8,6 +8,9 @@
     <v-container>
       <v-row>
         <v-col cols="12" class="text-center"> This is testing row. </v-col>
+        <v-col cols="12" class="text-center">
+          <v-btn color="danger"> Hello World Button </v-btn>
+        </v-col>
       </v-row>
     </v-container>
   </div>

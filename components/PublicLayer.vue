@@ -4,5 +4,19 @@
     <pre>
 This is called from Nuxt Public Layer: https://github.com/hardik-affilium/nuxt-public-layer</pre
     >
+    <v-row>
+      <v-col>
+        <v-btn color="primary" @click="testauth()">Test Button 1111</v-btn>
+      </v-col>
+    </v-row>
   </div>
 </template>
+
+<script setup>
+import { useAuthStore } from "@/stores/auth/useAuthStore";
+const authStore = useAuthStore();
+
+const testauth = () => {
+  authStore.testAuth();
+};
+</script>

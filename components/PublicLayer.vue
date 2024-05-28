@@ -9,7 +9,7 @@
       <v-row>
         <v-col cols="12" class="text-center"> This is testing row. </v-col>
         <v-col cols="12" class="text-center">
-          <v-btn color="error"> Hello World Button </v-btn>
+          <v-btn color="error" @click="testauth1"> Hello World Button </v-btn>
         </v-col>
       </v-row>
     </v-container>

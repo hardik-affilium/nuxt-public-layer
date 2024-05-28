@@ -12,6 +12,11 @@
           <v-btn color="error" @click="testauth1"> Hello World Button </v-btn>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col>
+          <v-btn color="primary" @click="testauth1()">Test Button 222222</v-btn>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>

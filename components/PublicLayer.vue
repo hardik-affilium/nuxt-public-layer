@@ -15,10 +15,6 @@
       <v-row>
         <v-col>
           <v-btn color="primary" @click="testauth1()">Test Button 222222</v-btn>
-          <div>
-            First Name: {{ testStore.firstName }} <br />
-            Last Namel: {{ testStore.lastName }}
-          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -28,8 +24,6 @@
 <script setup>
 import { useAuthStore } from "@/stores/auth/useAuthStore";
 const authStore = useAuthStore();
-import { useTestStore } from "@/stores/core/useTestStore";
-const testStore = useTestStore();
 
 const testauth1 = () => {
   authStore.testAuth2();

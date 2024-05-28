@@ -21,6 +21,6 @@ import { useAuthStore } from "@/stores/auth/useAuthStore";
 const authStore = useAuthStore();
 
 const testauth1 = () => {
-  authStore.testAuth();
+  authStore.testAuth2();
 };
 </script>
